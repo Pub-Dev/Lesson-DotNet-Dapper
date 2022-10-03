@@ -1,3 +1,9 @@
+CREATE DATABASE [pub-dev];
+GO
+
+USE [pub-dev];
+GO
+
 CREATE TABLE tblUsuario
 (
 	UsuarioID INT IDENTITY(1,1) NOT NULL,
@@ -11,5 +17,5 @@ CREATE TABLE tblUsuario
 INSERT INTO tblUsuario(Nome, Sobrenome, Email)
 VALUES
 	('Mayara', 'Toku', NULL),
-	('João', 'Silva', NULL),
+	('Joao', 'Silva', NULL),
 	('Alef', 'Carlos', NULL)

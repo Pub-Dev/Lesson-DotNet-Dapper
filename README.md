@@ -4,7 +4,9 @@ Repositorio para entender sobre Dapper com C#
 
 Este repositorio tem como objetivo demonstrar a utilização do Dapper com C#
 
-Referencias: - [Dapper - a simple object mapper for .Net](https://dapperlib.github.io/Dapper/) - [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview)
+Referencias: 
+  - [Dapper - a simple object mapper for .Net](https://dapperlib.github.io/Dapper/) 
+  - [ADO.NET](https://learn.microsoft.com/en-us/dotnet/framework/data/adonet/ado-net-overview)
 
 Lembrando que para executar o projeto existe um docker-compose com o SQL server, após subir o banco de dados, execute os comandos que se encontram na pasta /scripts
 

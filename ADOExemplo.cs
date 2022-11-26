@@ -14,6 +14,8 @@ public class ADOExemplo
 
     public IEnumerable<Usuario> ListarUsuarios()
     {
+        using var connection = new SqlConnection(_connectionString);
+
         var queryCommand = @"
             SELECT
                 UsuarioID,
@@ -22,8 +24,6 @@ public class ADOExemplo
                 Email,
                 DataCriacao
             FROM dbo.tblUsuario";
-
-        using var connection = new SqlConnection(_connectionString);
 
         var command = new SqlCommand(queryCommand, connection);
 
